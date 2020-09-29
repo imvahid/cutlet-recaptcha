@@ -1,0 +1,38 @@
+{
+  "name": "va/cutlet-recaptcha",
+  "description": "A package to use google recaptcha v2 with component and rule in laravel apps.",
+  "keywords": [
+    "laravel",
+    "recaptcha",
+    "laravel-captcha",
+    "laravel-recaptcha",
+    "google-recaptcha",
+    "laravel7-package",
+    "PHP",
+    "laravel7"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/va1hi9da9sh2ou0rz2ad1eh7/cutlet-recaptcha",
+  "authors": [
+    {
+      "name": "Vahid Ashourzadeh",
+      "email": "v.ashourzadeh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.1.*|7.2.*|7.3.*|7.4.*",
+    "laravel/framework": "7.*|8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Va\\CutletRecaptcha\\": "src/CutletRecaptcha/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Va\\CutletRecaptcha\\CutletRecaptchaServiceProvider"
+      ]
+    }
+  }
+}
